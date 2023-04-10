@@ -1,5 +1,4 @@
 "use strict";
-//@ts-check
 //String
 let nome = 'Samuel';
 //Number
@@ -23,3 +22,7 @@ let names2 = [
 let people = [
     2004, 'Samuel'
 ];
+function normalizarTexto(texto) {
+    return texto.trim().toLowerCase();
+}
+console.log(normalizarTexto('SaMuKa'));

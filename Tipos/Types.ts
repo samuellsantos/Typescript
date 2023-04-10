@@ -1,15 +1,13 @@
-//@ts-check
 //String
-let nome:string = 'Samuel'
-
+let nome: string = 'Samuel'
 //Number
-let numero:number = 14
+let numero: number = 14
 
 //Boolean
-let dev:boolean = true
+let dev: boolean = true
 
 //Array
-let nomes:string[] = ['Samuel', 'Samuka']
+let nomes: string[] = ['Samuel', 'Samuka']
 
 let nomes2: Array<string> = [
   'Samuel', 'Santos'
@@ -30,3 +28,8 @@ let names2: Array<string | number> = [
 let people: [number, string] = [
   2004, 'Samuel'
 ]
+
+function normalizarTexto(texto:string) {
+  return texto.trim().toLowerCase()
+}
+console.log(normalizarTexto('SaMuKa'))
